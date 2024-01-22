@@ -1,0 +1,378 @@
+header {
+    background-color: rgba(245, 245, 245, 0);
+    position: fixed;
+    z-index: 7777;
+    transition: .5s all linear;
+    width: 100%;
+    /* top: -100px; */
+    color: #333;
+}
+
+header a {
+    transition: all .3s linear;
+}
+
+header:hover {
+    background-color: whitesmoke;
+}
+
+header li{
+    padding: 10px;
+    font-size: 1.7em;
+    transition: all .1s linear;
+}
+
+
+header li:hover span{
+    transition: all .1s linear;
+    color: #573b8a;
+}
+
+header a:hover {
+    transition: all .3s linear;
+    color: #573b8a;
+}
+
+.logo {
+    color: rgb(51, 51, 51);
+}
+
+
+.logo span {
+    color: rgb(51, 51, 51);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#products {
+    padding: 100px;
+}
+
+.inner-menu {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+}
+
+header .inner-menu li {
+    font-size: 1em;   
+}
+
+#searchProducts {
+    justify-content: center;
+}
+
+/* #hero {
+    background-image: url("../video/first.gif");
+    background-size: cover;
+    height: 400px;
+    box-shadow: 0 8px 9px #333;
+}
+
+#hero a {
+    font-size: 5em;
+    color: white;
+    transition: all .7s linear;
+    margin-top: 20px;
+}
+
+#hero a:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.704);
+}
+
+#hero .row {
+    justify-content: center;
+    text-align: center;
+} */
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header span {
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+header ul li ul li {
+    cursor: pointer;
+}
+
+header ul li ul li:hover {
+    color: #573b8a;
+}
+
+#product {
+    display: flex;
+    background: rgba(255, 255, 255, 0.696);
+    padding: 10px;
+    font-size: 1em;
+    transition: all .7s linear;
+}
+
+#product:hover {
+    box-shadow: 1px 35px 55px darkgray;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+#product .row {
+    display: flex;
+    transition: all .7s linear;
+}
+
+#products .col {
+    padding-top: 10px;
+}
+
+#product .gin {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#product button {
+    width: 100%;
+    font-size: 1.2em;
+    transition: all .7s linear;
+    background: #573b8a;
+    color: white;
+    border: 1px #573b8a solid;
+}
+
+#product button:hover {
+    color: #573b8a;
+    background-color: white;
+}
+
+/* #products img {
+    height: 400px;
+    width: 100%;
+} */
+
+body footer {
+    padding: 20px 20px;
+    background: whitesmoke;
+}
+footer .text {
+    border-bottom: 1px solid whitesmoke;
+}
+footer .text ul {
+    list-style: none;
+    margin: 0;
+}
+footer .text ul li {
+    color: #7D7D82;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 7px;
+}
+footer .footer_content {
+    flex-basis: 25%;
+    display: flex;
+    column-gap: 50px;
+}
+footer .footer_content .section1 {
+    flex-basis: 25%;
+}
+footer .footer_content .section1 .section {
+    pointer-events: none;
+}
+footer .footer_content .section1 .section .title span {
+    /* text-transform: none; */
+    white-space: nowrap;
+    display: block;
+    color: #59595B;
+    font-size: 12.3px;
+    line-height: 1.33337;
+    font-weight: 420;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 0.8em;
+    outline: none;
+}
+footer .footer_content .section1 .section-list {
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+}
+footer .footer_content .section1 .section-list .section-item {
+    display: block;
+    pointer-events: auto;
+    margin-bottom: 0.8em;
+    
+}
+footer .footer_content .section1 .section-list .section-item a {
+    color: #7D7D82; 
+    text-decoration: none; 
+    font-style: 1em;
+    display: block;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-right: 20px;
+    margin-bottom: 0.8em;
+    outline: none;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.33); /* Небольшое затемнение на фоне */
+    z-index: 1000; /* Поверх всех окон */
+    width: 100%;
+    height: 100%;
+    display: none; /* По умолчанию скрываем окно */
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    overflow-y: scroll;
+  }
+  
+  /* Стилизация контейнера окна */
+  .popup__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Распределяем элементы внутри равномерно */
+    width: 100%;
+    max-width: 800px;
+    min-height: 300px;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  /* Элементы окна (заголовок, список товаров, вывод стоимости) */
+  .popup__item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .popup__item:last-of-type {
+    border-bottom: none;
+  }
+  
+  .popup__title {
+    font-size: 20px;
+  }
+  
+  /* Стили для вывода товара */
+  .popup__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .popup__product-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .popup__product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .popup__product-title {
+    max-width: 300px;
+    font-weight: 500;
+  }
+  
+  .popup__product-price {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  /* Стили для кнопки удаления товара */
+  .popup__product-delete {
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    color: #d62240;
+  }
+  
+  /* Стили для вывода стоимости товаров */
+  .popup__cost {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+  }
+  
+  .popup__cost-title {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #364364;
+    text-align: right;
+  }
+  
+  .popup__cost-value {
+    font-size: 20px;
+  }
+  
+  /* Стили для кнопки закрытия окна */
+  .popup__close {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    color: rgba(54, 67, 100, 0.7);
+    font-size: 20px;
+  }
+  
+  .popup__close:hover {
+    color: rgb(54, 67, 100);
+  }
+  
+  .popup--open {
+    display: flex;
+  }
